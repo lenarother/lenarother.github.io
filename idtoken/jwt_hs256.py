@@ -22,3 +22,16 @@ encode_data = jwt.encode(
 )
 
 print(encode_data)
+
+try:
+
+    decode_data = jwt.decode(
+        jwt=encode_data,
+        key=SECRET_KEY,
+        algorithms="HS256"
+    )
+    print(decode_data)
+
+except Exception as e:
+    message = f"Token is invalid --> {e}"
+    print({"message": message})
