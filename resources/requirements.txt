@@ -1,2 +1,4 @@
 cryptography
+google-auth
 pyjwt
+requests
