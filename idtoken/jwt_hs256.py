@@ -1,5 +1,5 @@
 """
-Encode JWT with Symmetric Algorithm HS256 (HMAC with SHA-256).
+Sign and verify JWT using Symmetric Algorithm HS256 (HMAC with SHA-256).
 
 https://pythonsansar.com/creating-simple-json-web-token-jwt-in-python/
 """

@@ -1,5 +1,5 @@
 """
-Decode JWT with Symmetric Algorithm HS256 (HMAC with SHA-256).
+Sign and verify JWT using Asymmetric Algorithm RSA.
 
 https://pythonsansar.com/creating-simple-json-web-token-jwt-in-python/
 """
