@@ -25,6 +25,10 @@ encoded_data = jwt.encode(
 print(encoded_data)
 
 
+# --- READ WITHOUT VERIFICATION ---
+print(jwt.decode(encoded_data, options={'verify_signature': False}))
+
+
 # --- DECODE ---
 try:
     decode_data = jwt.decode(
@@ -35,5 +39,7 @@ try:
     print(decode_data)
 
 except Exception as e:
-    message = f"Token is invalid --> {e}"
-    print({"message": message})
+    message = f'Token is invalid --> {e}'
+    print({'message': message})
+
+
