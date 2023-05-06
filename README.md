@@ -1,4 +1,5 @@
 # JWT signing playground
+![github metrics](github-metrics.svg)
 
 [JSON Web Token (JWT)](https://jwt.io) is an open standard ([RFC 7519](https://www.rfc-editor.org/rfc/rfc7519)) 
 for securely transmitting information between parties as a JSON object. 
